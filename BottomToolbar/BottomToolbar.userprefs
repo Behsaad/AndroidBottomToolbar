@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="BottomToolbar.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_22" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/MainActivity.cs">
+    <Files>
+      <File FileName="Resources/values/Colors.xml" Line="6" Column="34" />
+      <File FileName="Views/MainActivity.cs" Line="36" Column="59" />
+      <File FileName="Views/FifthFragment.cs" Line="34" Column="49" />
+      <File FileName="Views/FirstFragment.cs" Line="34" Column="62" />
+      <File FileName="Views/SecondFragment.cs" Line="34" Column="63" />
+      <File FileName="Views/ThirdFragment.cs" Line="34" Column="62" />
+      <File FileName="Views/FourthFragment.cs" Line="34" Column="63" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BottomToolbar AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

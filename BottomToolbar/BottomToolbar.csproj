@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{79D50E08-BEB0-43BE-8A37-E38FE7FC3658}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BottomToolbar</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>BottomToolbar</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Insights">
+      <HintPath>packages\Xamarin.Insights.1.10.6\lib\MonoAndroid10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MainActivity.cs" />
+    <Compile Include="Views\FirstFragment.cs" />
+    <Compile Include="Views\SecondFragment.cs" />
+    <Compile Include="Views\ThirdFragment.cs" />
+    <Compile Include="Views\FourthFragment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_icon1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_icon2.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_icon3.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_icon4.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pic1.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\pic2.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\pic3.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\pic4.jpg" />
+    <AndroidResource Include="Resources\drawable-mdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_icon1.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_icon2.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_icon3.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_icon4.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_icon1.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_icon2.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_icon3.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_icon4.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_icon1.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_icon2.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_icon3.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_icon4.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\.DS_Store" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_icon1.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_icon2.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_icon3.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_icon4.png" />
+    <AndroidResource Include="Resources\layout\FirstFragment.xml" />
+    <AndroidResource Include="Resources\layout\.DS_Store" />
+    <AndroidResource Include="Resources\layout\FourthFragment.xml" />
+    <AndroidResource Include="Resources\layout\SecondFragment.xml" />
+    <AndroidResource Include="Resources\layout\ThirdFragment.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="packages\Xamarin.Insights.1.10.6\build\MonoAndroid10\Xamarin.Insights.targets" Condition="Exists('packages\Xamarin.Insights.1.10.6\build\MonoAndroid10\Xamarin.Insights.targets')" />
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+</Project>

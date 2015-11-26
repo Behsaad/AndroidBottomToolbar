@@ -1,0 +1,10 @@
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/BottomToolbar.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/System.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/System.Xml.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/Mono.Android.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/Xamarin.Insights.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/System.Core.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/mscorlib.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/System.Runtime.Serialization.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/System.ServiceModel.Internals.dll
+/Users/behsaadramez/Projects/BottomToolbar/obj/Debug/assemblies/System.Net.Http.dll
